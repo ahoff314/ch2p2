@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/ch2p2.dir/main.cpp.o  -o ch2p2 

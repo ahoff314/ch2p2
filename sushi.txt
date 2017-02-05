@@ -1,0 +1,19 @@
+
+Write a program that prompts the capacity, in gallons, of an automobile fuel tank and
+ the miles per gallon the automobile can be driven.
+ The program outputs the number of miles the automobile can be driven without refueling.
+ Numbers entered for capacity must allow entry of capacity being
+ an integer and the miles per gallon in decimals.
+The number of miles must be output to the next lowest integer (without decimals).
+
+1) Receive the input of the tank capacity in gallons (integer)
+
+2) Receive the input of the miles per gallon for the car (allow decimals)
+
+3) Calculate the number of miles the car can be driven without refueling using the below formula
+
+    totalMiles = tankCapacity * milesPerGallon
+
+4) Output totalMiles (next lowest integer)
+
+

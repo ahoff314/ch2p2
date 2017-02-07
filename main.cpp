@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     int tankCapacity;
     double milesPerGallon;
-    int totalMiles;
+    double totalMiles;
 
     // Receive input for tank capacity in gallons
     cout << "Please enter the tank capacity of your vehicle in gallons: ";
@@ -21,7 +21,7 @@ int main() {
     totalMiles = tankCapacity * milesPerGallon;
 
     // Output totalMiles
-    cout << "Car can go " << totalMiles << " miles without refueling." << endl;
+    cout << "Car can go " << static_cast<int>(totalMiles) << " miles without refueling." << endl;
 
     return 0;
 }

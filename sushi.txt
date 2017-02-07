@@ -17,3 +17,14 @@ The number of miles must be output to the next lowest integer (without decimals)
 4) Output totalMiles (next lowest integer)
 
 
+Questions:
+
+Why is type casting better than just declaring totalMiles as an integer?
+
+Make it easier to read the to know what it is doing. "I just wanted to point out that C++ 'converts' between
+some data types implicitly - meaning you don't have to tell it to.  We'll see this a lot with the various numeric types.
+That said, you have to be careful - sometimes you don't want the implicit conversion.
+
+Using the static_cast operator isn't technically necessary in this case, but it's still a good idea.
+It makes it obvious to a reader what you're doing."
+
